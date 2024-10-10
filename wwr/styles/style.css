@@ -59,8 +59,9 @@ footer p:hover{
 main section{
     text-align: center;
 }
-#backround{
+#background{
     height:725px;
+    background-color: #396E94;
 }
 h4{
     color: #FDF69C;

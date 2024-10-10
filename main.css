@@ -2,14 +2,31 @@ body {
     background-color: rgb(241, 241, 141);
     font-family:Arial;
 }
-
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+}
 a {
     color: black;
     font-size: 20px;
     padding: 5px;
     font-family:Georgia;
 }
-
+a:hover{
+    background-color: antiquewhite;
+}
 img {
-    width: 200px;
+    width: 50%;
+    margin: 0 auto;
+    display:block;
+}
+
+p {
+    text-align:center;
+}
+
+footer p{
+    text-align:center;
+    
 }

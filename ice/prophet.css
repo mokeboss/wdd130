@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(83, 153, 210);
+    margin: auto 30%;
+}
+img{
+    width: 30%
+}
+/**{
+    outline: 2px solid red;
+}*/ 
+header{
+    color: white;
+    font-family: 'Helvetica';
+}
+#quote{
+    color:white;
+    font-family: 'Merriweather';
+    letter-spacing: -1px;
+}
+#title:hover{
+    color:black;
+}
+.list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}

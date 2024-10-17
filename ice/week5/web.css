@@ -1,0 +1,18 @@
+#banner {
+    width: 100%;
+    display: block;
+}
+#circle {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    background-color: grey;
+    margin: auto;
+    gap: 15%
+}
+
+#circle img{
+    width: 25%;
+    border-radius: 50%;
+    border: 15px solid rgb( 70, 69, 69);
+}

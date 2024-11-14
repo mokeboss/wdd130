@@ -183,6 +183,65 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.rivers-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+   
+}
+#rivers-title{
+    color: #FDF69C;
+    font-family: 'Indie Flower', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 15px;
+    justify-self: center;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+#salmon-river{
+    color: white;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: smaller;
+    margin: 10px;
+}
+#salmon-img{
+    width: 90%;
+    grid-column: 4/6;
+    grid-row: 2/3;
+    padding: 10px;
+    margin: auto;
+}
+#gray-canyon{
+    color: white;
+    grid-column: 3/6;
+    grid-row: 3/4;
+    font-size: smaller;
+    padding-top: 100px;
+    margin: 10px
+}
+#canyon-img{
+    width: 90%;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    padding: 10px;
+    padding-top: 90px;
+    margin: auto;
+}
+#grand-canyon{
+    color:white;
+    grid-column: 1/6;
+    grid-row: 4/5;
+    font-size: smaller;
+    padding-top: 100px;
+    margin: 10px 50px;
+}
+#grand-img{
+    width: 80%;
+    grid-column: 1/6;
+    grid-row: 5/6;
+    padding: 30px;
+    margin: auto;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

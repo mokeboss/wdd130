@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Luckiest+Guy&display=swap');
+
+body{
+    background-color: white;
+    font-family: Karla;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(32, 159, 243, 0.75);
+    font-family: Luckiest Guy;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    margin: auto 0;
+    color: black;
+    text-decoration: none;
+    padding: 50px;
+}
+nav a:hover{
+    background-color: #2B2353;
+    color: #FFF0D7;
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -130px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-img{
+    width: 100%;
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+#intro {
+    justify-self: center;
+    align-self: center;
+    grid-column: 3/5;
+    grid-row: 1;
+}
+#main-content {
+    justify-self: center;
+    align-self: center;
+    grid-column: 2/5;
+    grid-row: 2;
+}
+#outro {
+    justify-self: center;
+    align-self: center;
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: rgb(32, 159, 243);
+    font-family: Karla;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 80px;
+    grid-template-rows: 150px;
+}
+footer p{
+    justify-self: center;
+    align-self: center;
+}
+#social{
+    grid-column: 4/5;
+}
+.socials{
+    width: 50%;
+    height: 50%;
+}

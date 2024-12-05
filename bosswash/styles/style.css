@@ -48,13 +48,18 @@ nav a:hover{
 }
 #hero-img{
     width: 100%;
+    height: 100%;
 }
 
 
+.main-grid p{
+    padding-right: 50px;
+}
 .main-grid {
     display: grid;
     grid-template-columns: 50px 50px 50px 1fr;
     grid-template-rows: repeat(3, 1fr);
+    background-color: #FFF0D7;
 }
 #intro {
     justify-self: center;
@@ -88,6 +93,13 @@ footer{
 footer p{
     justify-self: center;
     align-self: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: gray;
 }
 #social{
     grid-column: 4/5;

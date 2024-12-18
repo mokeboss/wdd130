@@ -149,15 +149,15 @@ nav a:hover{
 }
 
 
-
+/* footer */
 footer{
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     background-color: rgb(32, 159, 243);
     font-family: Karla;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 80px;
-    grid-template-rows: 150px;
+    grid-template-rows: 1fr;
 }
 footer p{
     justify-self: center;
@@ -167,11 +167,26 @@ footer a{
     text-decoration: none;
     color: black;
 }
+#boss{
+    font-size: 40px;
+    padding-left: 30px;
+}
+#links{
+    margin: auto;
+}
+#contacts {
+    margin: auto;
+    padding-right: 30px;
+}
 footer a:hover{
-    color: gray;
+    color: #FFF0D7;
 }
 #social{
     grid-column: 4/5;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%;  
 }
 .socials{
     width: 50%;
